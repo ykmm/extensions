@@ -53,10 +53,6 @@ every element a <code>value</code> and a <code>prompt</code>.
           {
             "value": "3",
             "prompt": "Hulk"
-          },
-          {
-            "value": "4",
-            "prompt": ""
           }
         ]
       },

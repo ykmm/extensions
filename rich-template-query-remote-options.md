@@ -33,6 +33,7 @@ to use for 'prompt' and 'value' in the query or template data elements:
 ####  [Version 1](rich-template-query-alt1.md) example:
 
 <code>urloptions</code> used to retrieve the elements
+
 two new properties added:
 
 * <code>optprompt</code> specifies the data element name of the returned C+J that contains the label for the options (if the client needs to show it)

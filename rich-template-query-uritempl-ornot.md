@@ -60,13 +60,11 @@ example of <code>urloptions</code> with a plain url
 }
 ```
 
-In this case the clients only knows that he can get a list of options from
-querying the url. Only by GETting the url it will know if it also query-able
-if the collections contains also a query object. (We assume that the
-autocomplete resource is represented as C+J).
+In this case the client needs to GET the url to get the list of options, and
+if the representation contains a <code>query</code> object then the client will know that
+the resource can be filtered/searched.
 
 * The advantage is that we use what is already part of the base C+J
 specification.
-
 * The downside is that the client needs to fire a GET request for all the
 template data objects that have a urloptions to learn if they can be queried.
